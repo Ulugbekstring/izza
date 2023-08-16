@@ -1,0 +1,433 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("imgs/Roboto/Roboto-Regular.ttf");
+}
+
+
+@font-face {
+    font-family: "Fredoka One";
+    src: url("./imgs/Fredoka/static/Fredoka-Bold.ttf");
+}
+
+/* @font-face {
+    font-family: Fredoka One;
+    src: url(imgs2/Fredoka.zip);
+} */
+
+
+.cards {
+    margin-left: 250px;
+}
+
+
+body {
+
+    width: 1600px;
+    height: 862px;
+
+}
+
+.block {
+    background: #F2CEDA;
+    width: 1900px;
+    height: 862px;
+}
+
+nav {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.links ul {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    color: rgba(21, 1, 1, 1);
+    text-decoration: none;
+
+}
+
+
+
+nav button {
+    width: 165px;
+    height: 49px;
+    border-radius: 5px;
+    background: #D23166;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+
+.yoz p {
+    color: #0F0101;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.4px;
+}
+
+.yoz h1 {
+    width: 665px;
+    height: 130px;
+    color: #0F0101;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 57.33px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120.5%;
+    opacity: 0.9;
+    color: #D23166;
+    font-family: "Fredoka One";
+    font-size: 57.33px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120.5%;
+}
+
+
+.yoz h4 {
+    width: 523px;
+    height: 78px;
+    color: #0F0101;
+    font-family: " Hind Madurai";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    /* 150% */
+}
+
+.yoz button {
+    width: 165px;
+    height: 49px;
+    border-radius: 5px;
+    background: #D23166;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+
+.yoz {
+    margin-left: 254px;
+    margin-top: 147px;
+}
+
+.right img {
+    display: flex;
+    margin-top: -400px;
+    margin-left: 1000px;
+}
+
+.rasm989 {
+    display: flex;
+    margin-left: 1250px;
+    margin-top: -460px;
+}
+
+.h1 {
+    margin-top: 200px;
+    margin-left: 300px;
+    width: 250px;
+}
+
+.rasm70 {
+    display: flex;
+    justify-content: right;
+    margin-top: -400px;
+}
+
+p {
+    margin: 0;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4, 250px);
+    justify-content: center;
+    gap: 39px;
+    padding: 100px 0;
+    border-radius: 7px;
+    background: rgb(255, 255, 255);
+    padding: 100px 0;
+}
+
+.cards .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    transition: all 0.50s;
+
+
+
+}
+
+.cards .card:hover {
+    box-shadow: 15px 15px 40px 0px rgba(0, 0, 0, 0.196);
+}
+
+.cards .card img {
+    height: 50px;
+
+}
+
+.cards .card p.title {
+    margin-top: 30px;
+    height: 28px;
+    color: #000;
+    font-family: "Hind Madurai";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.cards .card p.info {
+    margin-top: 9px;
+    height: 50px;
+    color: #000;
+    text-align: center;
+    font-family: "Hind Madurai";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+nav button {
+    width: 165px;
+    height: 49px;
+    border-radius: 5px;
+    background: #D23166;
+    color: #fff;
+    margin-left: 230px;
+    margin-top: -250px;
+    border: 1px solid #fff;
+}
+
+.lorem {
+    width: 300px;
+    height: 200px;
+    margin-left: 400px;
+    margin-top: 200px;
+}
+
+
+.lorem h1{
+    width: 200px;
+    color: #150101;
+font-family:" Hind Madurai";
+font-size: 44.2px;
+font-style: normal;
+font-weight: 600;
+line-height: 110.5%;
+width: 300px;
+
+}
+
+.rasm100 {
+    margin-left: 900px;
+    margin-top: -400px;
+
+}
+
+.showcase {
+    width: 1900px;
+    height: 550px;
+    background-color: #F8EDF0;
+    ;
+    padding: 100px 0;
+}
+
+
+.showcase .lorem button {
+    width: 165px;
+    height: 49px;
+    border-radius: 5px;
+    background: #D23166;
+    color: #fff;
+    margin-left: -5px;
+    margin-top: 35px;
+    border: 1px solid #fff;
+}
+
+.gap1000{
+    display: flex;
+    margin-left: 740px;
+}
+
+  
+.rasm78{
+    display: flex;
+    margin-left: 300px;
+    margin-top: 100px;
+}
+.lorem button{
+    width: 165px;
+    height: 49px;
+    border-radius: 5px;
+    background: #D23166;
+    color: #fff;
+    margin-left: -5px;
+    margin-top: 35px;
+    border: 1px solid #fff;
+}
+.pl{
+    margin-left: 900px;
+}
+.produckt .head ul {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    list-style: none;
+
+}
+
+.produckt .head .home{
+    border-bottom: #D64374 2px solid;
+}
+
+.produckt .head a {
+    color: #000;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.produckt .head ul a:hover{
+    color: #D64374;
+    transition: all 0.45s;
+}
+.produckt li{
+   display: flex;
+}
+
+.pl .lorem{
+    margin-top: -400px;
+    margin-left: 100px;
+}
+.jol{
+    display: flex;
+}
+
+.pl button{
+    border: 1px solid #fff;
+    margin-top: -100px;
+}
+.jol h4{
+    margin-top: 30px;
+}
+.jol{
+    gap: 10px;
+}
+.pl1 .lorem{
+    margin-top: -400px;
+}
+.ko1{
+    margin-left: 900px;
+    margin-top: 200px;
+}
+.jol1{
+    display: flex;
+    margin-top: -10px;
+}
+.jol1 h4{
+    margin-top: 40px;
+}
+.jol1{
+  margin-left: -0px;
+}
+.f{
+    margin-top: -45px;
+}
+.qiz{
+    margin-top: 400px;
+}
+.qiz{
+  display: flex;
+    margin-left: 100px;
+}
+.qiz p{
+    margin-top: 45px;
+    margin-left: -120px;
+}
+.qiz .ni{
+    width: 322px;
+height: 53px;
+margin-top: 80px;
+display: flex;
+justify-content: left;
+margin-left: -100px;
+}
+.qiz img{
+    margin-top: -50px;
+}
+
+.kq{
+    margin-top: -50px;
+    display: flex;
+    margin-left: 145px;
+}
+.po{
+    display: flex;
+    margin-left: 387px;
+    margin-top: 35px;
+}
+.jk{
+    margin-top: 100px;
+    display: flex;
+    margin-left: 200px;
+}
+.uk{
+    margin-left: 290px;
+    margin-top: -50px;
+}
+.hg{
+    display: flex;
+  margin-left: 120px;
+  margin-top: -35px;
+}
+.bn{
+    margin-left: 350px;
+    display: flex;
+    margin-top: -30px;
+}
+.bn1{
+    margin-left: 85px;
+    display: flex;
+    margin-top: -10px;
+}
+.mm{
+    margin-left: 600px;
+    display: flex;
+    margin-top: -300px;
+}
+.gap001{
+    width: 607px;
+height: 60px;
+margin-left: 1000px;
+margin-top: 200px;
+}
+.boos4{
+    margin-left: 300px;
+}
+.galer{
+    display: flex;
+    margin-left: 450px;
+}
+.hoc{
+    margin-left: 1000px;
+    margin-top: -400px;
+}
+
+
